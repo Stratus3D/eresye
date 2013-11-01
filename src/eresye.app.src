@@ -1,0 +1,10 @@
+{application, eresye,
+  [
+  {description, "This is a clone of the Sourceforge project repository of the same name. ERESYE means ERlang Expert SYstem Engine. It is a library to write expert systems and rule processing engines using the Erlang programming language. It allows to create multiple engines, each one with its own facts and rules to be processed."},
+  {vsn, "1.2.5"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+      ]},
+]}.
